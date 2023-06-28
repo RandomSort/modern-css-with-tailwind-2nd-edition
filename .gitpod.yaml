@@ -1,6 +1,6 @@
 tasks:
   - name: Start web server
-    init: python -m http.server 8000 ./code
+    init: python -m http.server 8000 -d ./code
 
 ports:
   - port: 8000
